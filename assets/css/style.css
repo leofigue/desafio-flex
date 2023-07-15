@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #F8F8F8;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F8F8F8;
+}
+
+.listadoPersonas{
+    /* width: 20vw; */
+    flex-basis: 20vw;
+    height: 100vh;
+    border-right: 1px solid #E0E0E0;
+    overflow-y: auto;
+    
+}
+
+.contenido{
+    
+    display: flex;
+    flex-direction: column;
+    /* width: 80vw;  */
+    flex-basis: 80vw;
+    height: 100vh;
+    background-color: #F8F8F8;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-imagen{
+    width: 286px;
+    height: 286px;
+}
+.contenido-imagen img{
+    width: 100%;
+}
+.contenido-texto{
+    text-align: center;
+    width: 600px;
+}
+.contenido-texto h1{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 45px;
+     margin-top: 1.5rem; 
+}
+.contenido-texto p{
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    font-weight:300;
+    padding: 0 3rem;
+}
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 78%; */
+    flex-basis: 100%;
+    gap: 1rem;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #E0E0E0;
+    padding: 0.5rem 2rem;
+}
+
+.tarjeta-imagen img{
+    width: 4rem;
+    height: 4rem;
+    clip-path: circle();
+}
+
+.tarjeta-imagen2 img{
+    width: 3rem;
+    height: 3rem;
+    clip-path: circle();
+}
+
+.tarjeta-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10.5rem;
+    font-family: 'Open Sans';
+}
+.tarjeta-texto p{
+    font-size: 0.8rem;
+}
+.tarjeta-buton{
+    background-color: #A491D2;
+    border: 0;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    margin: 2rem 0;
+    cursor: pointer;
+
+}
+.tarjeta-buton:hover{
+    background-color: #cdc3e6;
+}
+.tarjeta-buton:focus{
+    background-color: #bec1bb;
+}
+
+.iconfont{
+    display: flex;
+    color: #959797;
+    gap: 0.7rem;
+    cursor: pointer;
+}
+.fa-message:hover, .fa-bars:hover{
+    color: #A491D2;
+    font-weight: bold;
+}
