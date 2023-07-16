@@ -127,3 +127,26 @@ body{
     color: #A491D2;
     font-weight: bold;
 }
+
+.bg-blue{
+    background-color: rgba(0, 0, 255, 0.341);
+}
+.fs-1rem{
+    font-size: 12px;
+}
+.bg-titulo{
+    background-color: #004577;
+    color: white;
+}
+
+.bg-subtitulo{
+    /* background: linear-gradient(to right, #F6BE00 0%, #F6BE00 50%, #004577 50%, #004577 100%); */
+    background-color: #F6BE00;
+    color: #333333;
+}
+.bg-titulo-tabla{
+    background-color: #14A2F1 !important;
+    color: white !important;
+    font-size: 12px !important;
+    font-weight: bolder !important;
+}
